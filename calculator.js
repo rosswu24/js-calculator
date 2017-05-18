@@ -6,6 +6,12 @@
  * @return {object} `calculator` object that can be used
  */
 
+// variables are private
+var calculatorModule = function(){
+    var memory = {};
+    var total = {};
+
+
 
   /**
    * sets the `total` to the number passed in
@@ -13,11 +19,17 @@
    * @return { Number }    current total
    */
 
+function calculatorTotal(x){
+    return currentTotal;
+
+}
 
   /**
    * Return the value of `total`
    * @return { Number }
    */
+   return total;
+
 
 
   /**
@@ -63,3 +75,6 @@
    * Validation
    */
 
+    
+
+};
